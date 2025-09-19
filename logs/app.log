@@ -1,0 +1,201 @@
+2025-09-19T19:51:53.464+08:00 ERROR 30156 --- [demo] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.example.demo' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.example.demo
+    Value: "DEBUG   # replace with your package"
+    Origin: class path resource [application.properties] - 20:32
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG   # replace with your package)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-09-19T19:52:24.931+08:00 ERROR 30198 --- [demo] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.example.demo' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.example.demo
+    Value: "DEBUG   # replace with your package"
+    Origin: class path resource [application.properties] - 20:32
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG   # replace with your package)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-09-19T19:53:33.148+08:00 ERROR 30291 --- [demo] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.example.demo' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.example.demo
+    Value: "DEBUG   # replace with your package"
+    Origin: class path resource [application.properties] - 20:32
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.DEBUG   # replace with your package)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-09-19T19:58:46.987+08:00  INFO 30575 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.16 with PID 30575 (/Users/SWG13/Downloads/demo/build/classes/java/main started by SWG13 in /Users/SWG13/Downloads/demo)
+2025-09-19T19:58:46.987+08:00 DEBUG 30575 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-19T19:58:46.988+08:00  INFO 30575 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-19T19:58:47.192+08:00  INFO 30575 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-19T19:58:47.246+08:00  INFO 30575 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2025-09-19T19:58:47.375+08:00  INFO 30575 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-19T19:58:47.380+08:00  INFO 30575 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-19T19:58:47.380+08:00  INFO 30575 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-19T19:58:47.395+08:00  INFO 30575 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-19T19:58:47.396+08:00  INFO 30575 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 396 ms
+2025-09-19T19:58:47.408+08:00 DEBUG 30575 --- [demo] [main] com.example.demo.config.LoggingFilter    : Filter 'loggingFilter' configured for use
+2025-09-19T19:58:47.464+08:00  INFO 30575 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-19T19:58:47.486+08:00  INFO 30575 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-19T19:58:47.497+08:00  INFO 30575 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-19T19:58:47.596+08:00  INFO 30575 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-19T19:58:47.609+08:00  INFO 30575 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-19T19:58:52.739+08:00  INFO 30575 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 3699ac3d-4e72-4ac9-9843-fc0e43d6a4c0
+2025-09-19T19:58:52.739+08:00  INFO 30575 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-19T19:58:52.775+08:00  INFO 30575 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-19T19:58:53.013+08:00  INFO 30575 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-19T19:58:53.071+08:00  INFO 30575 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-19T19:58:53.211+08:00 ERROR 30575 --- [demo] [main] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2025-09-19T19:58:53.244+08:00  WARN 30575 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-19T19:58:53.413+08:00  INFO 30575 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-19T19:58:53.417+08:00  INFO 30575 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.563 seconds (process running for 6.664)
+2025-09-19T19:59:28.736+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-19T19:59:28.737+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-19T19:59:28.737+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-09-19T19:59:28.863+08:00  WARN 30575 --- [demo] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-19T19:59:28.874+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-1] com.example.demo.config.LoggingFilter    : API Request: GET /getBooks | body= | client=127.0.0.1
+2025-09-19T19:59:28.874+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-1] com.example.demo.config.LoggingFilter    : API Response: status=200 | duration=133ms | body={"content":[{"id":1,"name":"john_doe","author":null,"quantity":null},{"id":2,"name":"jane_doe","author":null,"quantity":null},{"id":3,"name":"James Bond","author":"author A","quantity":20},{"id":4,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":5,"name":"James Bond","author":"author A","quantity":20},{"id":6,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":7,"name":"James Bond","author":"author A","quantity":20},{"id":8,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":9,"name":"James Bond","author":"author A","quantity":20},{"id":10,"name":"Robinson Crusoe","author":"author B","quantity":5}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"sorted":false,"unsorted":true},"offset":0,"paged":true,"unpaged":false},"last":false,"totalPages":37,"totalElements":365,"first":true,"size":10,"number":0,"sort":{"empty":true,"sorted":false,"unsorted":true},"numberOfElements":10,"empty":false}
+2025-09-19T19:59:31.373+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-2] com.example.demo.config.LoggingFilter    : API Request: POST /createBook | body={
+  "name": "Book 51",
+  "author": "Author K",
+  "quantity": 95
+} | client=127.0.0.1
+2025-09-19T19:59:31.373+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-2] com.example.demo.config.LoggingFilter    : API Response: status=201 | duration=71ms | body={"id":366,"name":"Book 51","author":"Author K","quantity":95}
+2025-09-19T19:59:33.703+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-3] com.example.demo.config.LoggingFilter    : API Request: PUT /updateBook/114 | body={
+    "name": "Updated book 51",
+    "author": "Updated author K",
+    "quantity": 96
+} | client=127.0.0.1
+2025-09-19T19:59:33.703+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-3] com.example.demo.config.LoggingFilter    : API Response: status=200 | duration=43ms | body={"id":114,"name":"Updated book 51","author":"Updated author K","quantity":96}
+2025-09-19T19:59:38.294+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-4] com.example.demo.config.LoggingFilter    : API Request: GET /searchbooks | body= | client=127.0.0.1
+2025-09-19T19:59:38.295+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-4] com.example.demo.config.LoggingFilter    : API Response: status=200 | duration=2393ms | body=[{"name":"Head first Java","author":"Kathy Sierra","year":2003},{"name":"Programming with Java","author":"E. Balagurusamy","year":2001},{"name":"Core Java","author":"DT Editorial Services R. Nageswara Rao","year":2016},{"name":"Java","author":"Herbert Schildt","year":1997},{"name":"Max Havelaar of de koffijveilingen der Nederlansche handelmaatschappij","author":"Multatuli","year":1868},{"name":"Introduction to Algorithms","author":"Thomas H. Cormen","year":1990},{"name":"Java for dummies","author":"Barry Burd","year":2011},{"name":"Flora of Java","author":"C. A. Backer","year":1963},{"name":"Objects first with Java","author":"David J. Barnes","year":2002},{"name":"Effective Java","author":"Joshua Bloch","year":2001},{"name":"JavaScript","author":"David Flanagan","year":1996},{"name":"Operating System Concepts","author":"Abraham Silberschatz","year":1988},{"name":"Java software solutions","author":"Lewis, John","year":1997},{"name":"Computer science","author":"J. Glenn Brookshear","year":1985},{"name":"Fundamentals of Programming using Java","author":"Edward Currie","year":2006},{"name":"C++","author":"Herbert Schildt","year":1987},{"name":"Think Python","author":"Allen B. Downey","year":2009},{"name":"Introduction to Java Programming","author":"Y. Daniel Liang","year":1999},{"name":"Big Java","author":"Cay S. Horstmann","year":2001},{"name":"Learning PHP, MySQL & JavaScript","author":"Robin Nixon","year":2009},{"name":"Java, Java, Java","author":"R. Morelli","year":2002},{"name":"Cantik Itu Luka","author":"Eka Kurniawan","year":2015},{"name":"Pocket Sudoku Easy","author":"Pocket Puzzles","year":2019},{"name":"JavaScript","author":"Douglas Crockford","year":2008},{"name":"Invitation to Computer Science","author":"G. Michael Schneider","year":1995},{"name":"Pocket Word Search","author":"Pocket Puzzles","year":2019},{"name":"Pocket Sudoku Hard","author":"Sudoku Kingdom","year":2019},{"name":"Java Programming","author":"Joyce Farrell","year":1998},{"name":"Java Head","author":"Joseph Hergesheimer","year":1918},{"name":"Java Concurrency in Practice","author":"Brian Goetz","year":2006},{"name":"Thinking in Java","author":"Bruce Eckel","year":1997},{"name":"Head First design patterns","author":"Eric Freeman","year":2004},{"name":"Java","author":"Walter J. Savitch","year":1998},{"name":"Data structures & algorithms in Java","author":"Robert Lafore","year":2003},{"name":"Java, Java, Java!","author":"R. Morelli","year":2000},{"name":"Absolute Java","author":"Walter J. Savitch","year":2003},{"name":"Java How to Program","author":"Harvey M. Deitel","year":1997},{"name":"An Introduction to Object-Oriented Programming With Java","author":"C. Thomas Wu","year":1998},{"name":"C how to program","author":"Harvey M. Deitel","year":1992},{"name":"South by Java Head","author":"Alistair MacLean","year":1958},{"name":"Java how to program--early objects","author":"Paul J. Deitel","year":2011},{"name":"Java Cookbook","author":"Ian F. Darwin","year":2001},{"name":"Course ILT","author":"Course Technology","year":2000},{"name":"Core Java 2.","author":"Cay S. Horstmann","year":1999},{"name":"Java for dummies","author":"Barry A. Burd","year":2006},{"name":"Computer science","author":"Behrouz A. Forouzan","year":1997},{"name":"The Religion of Java","author":"Clifford Geertz","year":1900},{"name":"Java how to program","author":"Paul J. Deitel","year":2005},{"name":"Core Java","author":"Cay S. Horstmann","year":2008},{"name":"Java","author":"Andy Vickler","year":2021},{"name":"Java","author":"Herbert Schildt","year":2010},{"name":"Learning Java","author":"Patrick Niemeyer","year":2000},{"name":"Java : the Complete Reference, Twelfth Edition","author":"Herbert Schildt","year":2021},{"name":"Java foundations","author":"Lewis, John","year":2011},{"name":"Java","author":"Peter Hutton","year":1978},{"name":"Beginning Programming with Java For Dummies","author":"Barry Burd","year":2005},{"name":"Java","author":"subramaniyam k","year":2018},{"name":"Head first Java","author":"Kathy Sierra","year":2005},{"name":"Java for dummies","author":"Aaron E. Walsh","year":1996},{"name":"Learn Java for Android Development","author":"Jeff Friesen","year":2010},{"name":"Java Für Dummies","author":"Barry Burd","year":2012},{"name":"Java 2","author":"Herbert Schildt","year":2000},{"name":"Java Programming","author":"Gilbert Grunitzky","year":2017},{"name":"Prophetic Secrets","author":"Passion Java","year":2014},{"name":"Java Head","author":"Joseph Hergesheimer","year":1919},{"name":"Let Us Java","author":"Yashavant Kanetkar","year":2019},{"name":"History of Java","author":"Stamford Raffles","year":2010},{"name":"Java foundations","author":"Lewis, John","year":2007},{"name":"The Java programming language","author":"Arnold, Ken","year":1996},{"name":"Java Swing","author":"Marc Loy","year":2002},{"name":"Java Script","author":"Amro Solima","year":2019},{"name":"Java programming","author":"Joyce Farrell","year":2009},{"name":"Java threads","author":"Scott Oaks","year":1997},{"name":"Data structures and algorithms in Java","author":"Michael T. Goodrich","year":2001},{"name":"Proceedings of the Court Martial, held on the officers and crew of His Majesty's late ship, the Java. --","author":"Java (Frigate)","year":1813},{"name":"Fourteen Types of Angels","author":"Passion Java","year":2017},{"name":"Joy with Java","author":"Debasis Samanta","year":2022},{"name":"Inside Java","author":"Tim Ritchey","year":1997},{"name":"Java in a Nutshell","author":"David Flanagan","year":1996},{"name":"Interpretation - Who Is Your Interpreter","author":"Passion Java","year":2018},{"name":"Programming in JAVA","author":"Sachin Malhotra","year":2010},{"name":"Developing Java software","author":"R. Winder","year":1997},{"name":"Starting out with Java","author":"Tony Gaddis","year":2014},{"name":"Java Security","author":"Scott Oaks","year":1998},{"name":"Exploring Java","author":"Patrick Niemeyer","year":1996},{"name":"Programacion Web Java/ Java Web Programming","author":"Andres Martinez Quijano","year":2006},{"name":"Java Head","author":"Joseph Hergesheimer","year":1946},{"name":"Effective Java","author":"Joshua Bloch","year":2008},{"name":"Java programming","author":"D. S. Malik","year":2004},{"name":"Java","author":"Herbert Schildt","year":2011},{"name":"Introduction to Java Programming and Data Structures, Comprehensive Version","author":"Y. Liang","year":2019},{"name":"Java","author":"Todd Knowlton","year":1998},{"name":"Java Precisely","author":"Peter Sestoft","year":2002},{"name":"Java Nights","author":"Karen Van Der Zee","year":1990},{"name":"Java for programmers","author":"Paul J. Deitel","year":2009},{"name":"IMAGINE THAT!","author":"Becki Java","year":2007},{"name":"Crazy Men Can Make You Do Crazy Things","author":"Java Weathersby","year":2006},{"name":"2022 Calendar","author":"Java Edtion","year":2021},{"name":"Supervivientes","author":"Java Rosenfarb ","year":2016},{"name":"Ethan's Choice","author":"Lily Java","year":2019}]
+2025-09-19T19:59:51.972+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-5] com.example.demo.config.LoggingFilter    : API Request: GET /getBooks | body= | client=127.0.0.1
+2025-09-19T19:59:51.972+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-5] com.example.demo.config.LoggingFilter    : API Response: status=200 | duration=27ms | body={"content":[{"id":1,"name":"john_doe","author":null,"quantity":null},{"id":2,"name":"jane_doe","author":null,"quantity":null},{"id":3,"name":"James Bond","author":"author A","quantity":20},{"id":4,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":5,"name":"James Bond","author":"author A","quantity":20},{"id":6,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":7,"name":"James Bond","author":"author A","quantity":20},{"id":8,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":9,"name":"James Bond","author":"author A","quantity":20},{"id":10,"name":"Robinson Crusoe","author":"author B","quantity":5}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"sorted":false,"unsorted":true},"offset":0,"paged":true,"unpaged":false},"last":false,"totalPages":37,"totalElements":366,"first":true,"size":10,"number":0,"sort":{"empty":true,"sorted":false,"unsorted":true},"numberOfElements":10,"empty":false}
+2025-09-19T19:59:56.547+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-6] com.example.demo.config.LoggingFilter    : API Request: GET /getBooks | body= | client=127.0.0.1
+2025-09-19T19:59:56.547+08:00  INFO 30575 --- [demo] [http-nio-8080-exec-6] com.example.demo.config.LoggingFilter    : API Response: status=200 | duration=16ms | body={"content":[{"id":11,"name":"James Bond","author":"author A","quantity":20},{"id":12,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":13,"name":"Book 1","author":"Author A","quantity":5},{"id":14,"name":"Book 2","author":"Author B","quantity":7},{"id":15,"name":"Book 3","author":"Author C","quantity":10},{"id":16,"name":"Book 4","author":"Author D","quantity":12},{"id":17,"name":"Book 5","author":"Author E","quantity":8},{"id":18,"name":"Book 6","author":"Author F","quantity":15},{"id":19,"name":"Book 7","author":"Author G","quantity":20},{"id":20,"name":"Book 8","author":"Author H","quantity":25}],"pageable":{"pageNumber":1,"pageSize":10,"sort":{"empty":true,"sorted":false,"unsorted":true},"offset":10,"paged":true,"unpaged":false},"last":false,"totalPages":37,"totalElements":366,"first":false,"size":10,"number":1,"sort":{"empty":true,"sorted":false,"unsorted":true},"numberOfElements":10,"empty":false}
+2025-09-19T20:07:24.082+08:00  INFO 30575 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-19T20:07:26.092+08:00  INFO 30575 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-19T20:07:28.195+08:00  INFO 30575 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-19T20:07:28.208+08:00  INFO 30575 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-19T20:07:28.214+08:00  INFO 30575 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-19T20:13:35.007+08:00  INFO 31551 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.16 with PID 31551 (/Users/SWG13/Downloads/demo/build/classes/java/main started by SWG13 in /Users/SWG13/Downloads/demo)
+2025-09-19T20:13:35.007+08:00 DEBUG 31551 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-19T20:13:35.008+08:00  INFO 31551 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-09-19T20:13:35.211+08:00  INFO 31551 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-19T20:13:35.264+08:00  INFO 31551 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-09-19T20:13:35.409+08:00  INFO 31551 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-19T20:13:35.415+08:00  INFO 31551 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-19T20:13:35.415+08:00  INFO 31551 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-19T20:13:35.434+08:00  INFO 31551 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-19T20:13:35.435+08:00  INFO 31551 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 414 ms
+2025-09-19T20:13:35.451+08:00 DEBUG 31551 --- [demo] [main] com.example.demo.config.LoggingFilter    : Filter 'loggingFilter' configured for use
+2025-09-19T20:13:35.518+08:00  INFO 31551 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-19T20:13:35.539+08:00  INFO 31551 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-19T20:13:35.555+08:00  INFO 31551 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-19T20:13:35.647+08:00  INFO 31551 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-19T20:13:35.659+08:00  INFO 31551 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-19T20:13:40.794+08:00  INFO 31551 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 1e4eb97a-fe40-42d5-ab8a-223ae020bbe0
+2025-09-19T20:13:40.795+08:00  INFO 31551 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-19T20:13:40.831+08:00  INFO 31551 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-19T20:13:41.072+08:00  INFO 31551 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-19T20:13:41.126+08:00  INFO 31551 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-19T20:13:41.286+08:00 ERROR 31551 --- [demo] [main] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2025-09-19T20:13:41.323+08:00  WARN 31551 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-19T20:13:41.476+08:00  INFO 31551 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-19T20:13:41.479+08:00  INFO 31551 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.632 seconds (process running for 6.756)
+2025-09-19T20:13:48.289+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-19T20:13:48.289+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-19T20:13:48.290+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-19T20:13:48.402+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-1] com.example.demo.config.LoggingFilter    : API Request: POST /createBook | body={
+  "name": "Book 51",
+  "author": "Author K",
+  "quantity": 95
+} | client=127.0.0.1
+2025-09-19T20:13:48.402+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-1] com.example.demo.config.LoggingFilter    : API Response: status=201 | duration=107ms | body={"id":417,"name":"Book 51","author":"Author K","quantity":95}
+2025-09-19T20:13:58.855+08:00  WARN 31551 --- [demo] [http-nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-19T20:13:58.861+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-2] com.example.demo.config.LoggingFilter    : API Request: GET /getBooks | body= | client=127.0.0.1
+2025-09-19T20:13:58.861+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-2] com.example.demo.config.LoggingFilter    : API Response: status=200 | duration=109ms | body={"content":[{"id":1,"name":"john_doe","author":null,"quantity":null},{"id":2,"name":"jane_doe","author":null,"quantity":null},{"id":3,"name":"James Bond","author":"author A","quantity":20},{"id":4,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":5,"name":"James Bond","author":"author A","quantity":20},{"id":6,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":7,"name":"James Bond","author":"author A","quantity":20},{"id":8,"name":"Robinson Crusoe","author":"author B","quantity":5},{"id":9,"name":"James Bond","author":"author A","quantity":20},{"id":10,"name":"Robinson Crusoe","author":"author B","quantity":5}],"pageable":{"pageNumber":0,"pageSize":10,"sort":{"empty":true,"unsorted":true,"sorted":false},"offset":0,"unpaged":false,"paged":true},"last":false,"totalPages":42,"totalElements":417,"first":true,"size":10,"number":0,"sort":{"empty":true,"unsorted":true,"sorted":false},"numberOfElements":10,"empty":false}
+2025-09-19T20:14:04.125+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-3] com.example.demo.config.LoggingFilter    : API Request: GET /searchbooks | body= | client=127.0.0.1
+2025-09-19T20:14:04.125+08:00  INFO 31551 --- [demo] [http-nio-8080-exec-3] com.example.demo.config.LoggingFilter    : API Response: status=200 | duration=2407ms | body=[{"name":"Head first Java","author":"Kathy Sierra","year":2003},{"name":"Programming with Java","author":"E. Balagurusamy","year":2001},{"name":"Core Java","author":"DT Editorial Services R. Nageswara Rao","year":2016},{"name":"Java","author":"Herbert Schildt","year":1997},{"name":"Max Havelaar of de koffijveilingen der Nederlansche handelmaatschappij","author":"Multatuli","year":1868},{"name":"Introduction to Algorithms","author":"Thomas H. Cormen","year":1990},{"name":"Java for dummies","author":"Barry Burd","year":2011},{"name":"Flora of Java","author":"C. A. Backer","year":1963},{"name":"Objects first with Java","author":"David J. Barnes","year":2002},{"name":"Effective Java","author":"Joshua Bloch","year":2001},{"name":"JavaScript","author":"David Flanagan","year":1996},{"name":"Operating System Concepts","author":"Abraham Silberschatz","year":1988},{"name":"Java software solutions","author":"Lewis, John","year":1997},{"name":"Computer science","author":"J. Glenn Brookshear","year":1985},{"name":"Fundamentals of Programming using Java","author":"Edward Currie","year":2006},{"name":"C++","author":"Herbert Schildt","year":1987},{"name":"Think Python","author":"Allen B. Downey","year":2009},{"name":"Introduction to Java Programming","author":"Y. Daniel Liang","year":1999},{"name":"Big Java","author":"Cay S. Horstmann","year":2001},{"name":"Learning PHP, MySQL & JavaScript","author":"Robin Nixon","year":2009},{"name":"Java, Java, Java","author":"R. Morelli","year":2002},{"name":"Cantik Itu Luka","author":"Eka Kurniawan","year":2015},{"name":"Pocket Sudoku Easy","author":"Pocket Puzzles","year":2019},{"name":"JavaScript","author":"Douglas Crockford","year":2008},{"name":"Invitation to Computer Science","author":"G. Michael Schneider","year":1995},{"name":"Pocket Word Search","author":"Pocket Puzzles","year":2019},{"name":"Pocket Sudoku Hard","author":"Sudoku Kingdom","year":2019},{"name":"Java Programming","author":"Joyce Farrell","year":1998},{"name":"Java Head","author":"Joseph Hergesheimer","year":1918},{"name":"Java Concurrency in Practice","author":"Brian Goetz","year":2006},{"name":"Thinking in Java","author":"Bruce Eckel","year":1997},{"name":"Head First design patterns","author":"Eric Freeman","year":2004},{"name":"Java","author":"Walter J. Savitch","year":1998},{"name":"Data structures & algorithms in Java","author":"Robert Lafore","year":2003},{"name":"Java, Java, Java!","author":"R. Morelli","year":2000},{"name":"Absolute Java","author":"Walter J. Savitch","year":2003},{"name":"Java How to Program","author":"Harvey M. Deitel","year":1997},{"name":"An Introduction to Object-Oriented Programming With Java","author":"C. Thomas Wu","year":1998},{"name":"C how to program","author":"Harvey M. Deitel","year":1992},{"name":"South by Java Head","author":"Alistair MacLean","year":1958},{"name":"Java how to program--early objects","author":"Paul J. Deitel","year":2011},{"name":"Java Cookbook","author":"Ian F. Darwin","year":2001},{"name":"Course ILT","author":"Course Technology","year":2000},{"name":"Core Java 2.","author":"Cay S. Horstmann","year":1999},{"name":"Java for dummies","author":"Barry A. Burd","year":2006},{"name":"Computer science","author":"Behrouz A. Forouzan","year":1997},{"name":"The Religion of Java","author":"Clifford Geertz","year":1900},{"name":"Java how to program","author":"Paul J. Deitel","year":2005},{"name":"Core Java","author":"Cay S. Horstmann","year":2008},{"name":"Java","author":"Andy Vickler","year":2021},{"name":"Java","author":"Herbert Schildt","year":2010},{"name":"Learning Java","author":"Patrick Niemeyer","year":2000},{"name":"Java : the Complete Reference, Twelfth Edition","author":"Herbert Schildt","year":2021},{"name":"Java foundations","author":"Lewis, John","year":2011},{"name":"Java","author":"Peter Hutton","year":1978},{"name":"Beginning Programming with Java For Dummies","author":"Barry Burd","year":2005},{"name":"Java","author":"subramaniyam k","year":2018},{"name":"Head first Java","author":"Kathy Sierra","year":2005},{"name":"Java for dummies","author":"Aaron E. Walsh","year":1996},{"name":"Learn Java for Android Development","author":"Jeff Friesen","year":2010},{"name":"Java Für Dummies","author":"Barry Burd","year":2012},{"name":"Java 2","author":"Herbert Schildt","year":2000},{"name":"Java Programming","author":"Gilbert Grunitzky","year":2017},{"name":"Prophetic Secrets","author":"Passion Java","year":2014},{"name":"Java Head","author":"Joseph Hergesheimer","year":1919},{"name":"Let Us Java","author":"Yashavant Kanetkar","year":2019},{"name":"History of Java","author":"Stamford Raffles","year":2010},{"name":"Java foundations","author":"Lewis, John","year":2007},{"name":"The Java programming language","author":"Arnold, Ken","year":1996},{"name":"Java Swing","author":"Marc Loy","year":2002},{"name":"Java Script","author":"Amro Solima","year":2019},{"name":"Java programming","author":"Joyce Farrell","year":2009},{"name":"Java threads","author":"Scott Oaks","year":1997},{"name":"Data structures and algorithms in Java","author":"Michael T. Goodrich","year":2001},{"name":"Proceedings of the Court Martial, held on the officers and crew of His Majesty's late ship, the Java. --","author":"Java (Frigate)","year":1813},{"name":"Fourteen Types of Angels","author":"Passion Java","year":2017},{"name":"Joy with Java","author":"Debasis Samanta","year":2022},{"name":"Inside Java","author":"Tim Ritchey","year":1997},{"name":"Java in a Nutshell","author":"David Flanagan","year":1996},{"name":"Interpretation - Who Is Your Interpreter","author":"Passion Java","year":2018},{"name":"Programming in JAVA","author":"Sachin Malhotra","year":2010},{"name":"Developing Java software","author":"R. Winder","year":1997},{"name":"Starting out with Java","author":"Tony Gaddis","year":2014},{"name":"Java Security","author":"Scott Oaks","year":1998},{"name":"Exploring Java","author":"Patrick Niemeyer","year":1996},{"name":"Programacion Web Java/ Java Web Programming","author":"Andres Martinez Quijano","year":2006},{"name":"Java Head","author":"Joseph Hergesheimer","year":1946},{"name":"Effective Java","author":"Joshua Bloch","year":2008},{"name":"Java programming","author":"D. S. Malik","year":2004},{"name":"Java","author":"Herbert Schildt","year":2011},{"name":"Introduction to Java Programming and Data Structures, Comprehensive Version","author":"Y. Liang","year":2019},{"name":"Java","author":"Todd Knowlton","year":1998},{"name":"Java Precisely","author":"Peter Sestoft","year":2002},{"name":"Java Nights","author":"Karen Van Der Zee","year":1990},{"name":"Java for programmers","author":"Paul J. Deitel","year":2009},{"name":"IMAGINE THAT!","author":"Becki Java","year":2007},{"name":"Crazy Men Can Make You Do Crazy Things","author":"Java Weathersby","year":2006},{"name":"2022 Calendar","author":"Java Edtion","year":2021},{"name":"Supervivientes","author":"Java Rosenfarb ","year":2016},{"name":"Ethan's Choice","author":"Lily Java","year":2019}]
+2025-09-19T20:35:24.053+08:00  WARN 31551 --- [demo] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m43s87ms).
+2025-09-19T22:23:56.899+08:00  WARN 31551 --- [demo] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m32s300ms).
+2025-09-19T23:55:54.965+08:00  INFO 31551 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-19T23:55:56.973+08:00  INFO 31551 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-19T23:56:01.094+08:00  INFO 31551 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-19T23:56:01.098+08:00  INFO 31551 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-19T23:56:01.100+08:00  INFO 31551 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
